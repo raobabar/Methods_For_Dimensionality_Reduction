@@ -37,16 +37,16 @@ If the variable has a very low correlation with the target, it's not gonna usefu
 8. Forward selection:
 
 Steps:
-a. Identify the best variable based on model accuracy. 
-b. Add the next best variable into the model. 
-c. And so on until you meet some predefined criteria, whether that criteria is based on some threshold value or some number of features.
+a) Identify the best variable based on model accuracy. 
+b) Add the next best variable into the model. 
+c) And so on until you meet some predefined criteria, whether that criteria is based on some threshold value or some number of features.
 
 9. Backward elimination: 
 
 Steps:
-a. Start putting all variables into the model. 
-b. Drop at least useful variable based on smallest drop in model accuracy. 
-c. And so on until some predefined criteria is satisfied.
+a) Start putting all variables into the model. 
+b) Drop at least useful variable based on smallest drop in model accuracy. 
+c) And so on until some predefined criteria is satisfied.
 
 10. Stepwise selection:
 
